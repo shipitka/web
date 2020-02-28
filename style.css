@@ -54,13 +54,14 @@ a {
 }
 
 .browse {
-    top: 32px;
-    left: 429px;
-    height: 38px;
-    width: 87px;
-    text-align: center;
-    margin-top: 14px;
+    border: 1px solid rgba(230, 230, 230, 1);
+    border-radius: 3px 0px 0px 3px;
+    background-image: -webkit-linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%);
+    background-image: -moz-linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%);
+    background-image: -o-linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%);
+    background-image: linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%);
 }
+
 .header__cart {
     margin-right: 26px;
 }
@@ -84,6 +85,7 @@ a {
     line-height: 32px;
     text-transform: uppercase;
     text-decoration: none;
+    color: rgba(34, 34, 34, 1);
 }
 
 .logo__img {
