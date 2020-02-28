@@ -31,33 +31,21 @@ a {
     align-items: center;
 }
 
-.header_form input, .header_form button {
-  outline: none;
-  background: transparent;
+.header__form {
+    display: flex;
+    align-items: center;
+    top: 32px;
+    left: 515px;
+    height: 38px;
+    width: 317px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(230, 230, 230, 1);
+    border-radius: 0px 3px 3px 0px;
 }
-.header_form input {
-  width: 100%;
-  height: 42px;
-  padding-left: 15px;
-  border: 3px solid #F9F0DA;
-}
-.header_form button {
-  border: none;
-  height: 42px;
-  width: 42px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  cursor: pointer;
-}
-.header_form button:before {
-  content: "\f002";
-  font-family: FontAwesome;
-  font-size: 16px;
-  color: #F9F0DA;
-}
-.header_form input:focus {
-  border-color: #311c24
+
+.input_form {
+    height: 35px;
+    width: 279px;
 }
 
 .search {
@@ -66,19 +54,13 @@ a {
 }
 
 .browse {
+    top: 32px;
+    left: 429px;
     height: 38px;
     width: 87px;
     text-align: center;
     margin-top: 14px;
-    font-family: 'Lato';
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(34, 34, 34, 1);
-    text-align: right;
-    letter-spacing: 0.03em;
-    padding: 14px 9px 14px 15px;
 }
-
 .header__cart {
     margin-right: 26px;
 }
