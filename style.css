@@ -43,23 +43,50 @@ a {
     border-radius: 0px 3px 3px 0px;
 }
 
+.header__form:required {
+    background-color: lightyellow;
+}
+
 .input_form {
     height: 35px;
     width: 279px;
+    border: aliceblue;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(164, 164, 164, 1);
+    text-align: left;
+    letter-spacing: 0.03em;
+    line-height: 32px;
 }
 
-.search {
-    height: 14px;
-    width: 14px;
+.header_button {
+    height: 36px;
+    width: 42px;
+    background: white;
+    border: aliceblue;
+}
+
+.header_button:hover {
+    background-color: #f16d7f;
 }
 
 .browse {
-    border: 1px solid rgba(230, 230, 230, 1);
     border-radius: 3px 0px 0px 3px;
-    background-image: -webkit-linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%);
-    background-image: -moz-linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%);
-    background-image: -o-linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%);
-    background-image: linear-gradient(180deg, rgba(249, 249, 249, 1) 0%, rgba(245, 245, 245, 1) 100%);
+    width: 87px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(34, 34, 34, 1);
+    text-align: center;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    background-color: rgba(245, 245, 245, 1);
+    border: aliceblue;
+}
+
+.browse:hover {
+    background-color: #f16d7f;
+    color: antiquewhite;
 }
 
 .header__cart {
@@ -434,9 +461,10 @@ h3 {
 .subscribe {
     background-image: url(img/2194.png);
     height: 438px;
-    background-position: center -51px;
+    background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 109px;
+    background-color: rgba(242, 242, 242, 0.5);
 }
 
 .subscribe_left {
@@ -486,7 +514,10 @@ h3 {
 .subscribe_text_right {
     width: 277px;
     height: 41px;
-
+    margin-left: auto;
+    margin-right: 0;
+    padding-top: 148px;
+    text-align: center;
 }
 
 .subscribe_info1 {
@@ -499,34 +530,124 @@ h3 {
     font-size: 14px;
     letter-spacing: 0.03em;
     line-height: 24px;
+    width: 290px;
+    margin-top: 10px;
 }
 
-.footer_brand {
-    padding-left: 228px;
+.subscribe_email {
+    display: flex;
+}
+
+.subscribe_form {
+    height: 46px;
+    width: 334px;
+    background-color: rgba(225, 225, 225, 1);
+    border-radius: 23px 0px 0px 23px;
+    border: aliceblue;
+    font-size: 14px;
+    color: rgba(34, 34, 36, 1);
+    letter-spacing: 0.03em;
+    line-height: 54px;
+    text-align: center;
+}
+
+.subscribe_button {
+    width: 150px;
+    height: 46px;
+    border: none;
+    background-color: rgba(241, 109, 127, 1);
+    border-radius: 0px 23px 23px 0px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.subscribe_button:hover {
+    background-color: #fff;
+    color: rgba(241, 109, 127, 1);
+}
+
+.prefooter_text {
+    display: flex;
+}
+
+.prefooter_brand {
+    padding-left: 166px;
+    padding-right: 62px;
     width: 431px;
     height: 205px;
     margin-bottom: 65px;
-    float: left;
-    clear: both;
 }
 
-.footer_menu {
+.prefooter_menu {
     display: flex;
+    flex: 1 0 auto;
+    justify-content: space-around;
+}
+
+.prefooter_info {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(137, 137, 137, 1);
+    text-align: left;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+    padding-top: 29px;
+    width: 435px;
+}
+
+.prefooter_head {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(241, 109, 127, 1);
+    text-align: right;
+    letter-spacing: 0.03em;
+    line-height: 26px;
 }
 
 li {
     list-style-type: none;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0.03em;
+    line-height: 42px;
+    text-decoration: none;
+    color: rgba(137, 137, 137, 1);
+    
+}
+
+prefooter_li {
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0.03em;
+    line-height: 42px;
+    text-decoration: none;
+    color: rgba(137, 137, 137, 1);
+
 }
 
 .footer_bottom {
+    margin-top: 109px;
     display: flex;
     background-color: rgba(230, 230, 230, 1);
     height: 79px;
+    justify-content: space-between;
 }
 
 .soc_pics {
-    display: flex;
-    justify-content: flex-end;
+    padding-top: 24px;
+    padding-right: 231px;
+}
+
+.copy {
+    font-size: 16px;
+    color: rgba(122, 122, 122, 1);
+    text-align: right;
+    letter-spacing: 0.03em;
+    line-height: 42px;
+    padding-top: 33px;
+    padding-left: 228px;
 }
 
 .pic {
@@ -536,4 +657,8 @@ li {
     border: 1px;
     margin-left: 2px;
     margin-right: 2px;
+}
+
+.pic:hover {
+    background-color: #f16d7f;
 }
