@@ -524,6 +524,7 @@ h3 {
     font-size: 24px;
     letter-spacing: 0.03em;
     line-height: 54px;
+    padding: 0;
 }
 
 .subscribe_info2 {
@@ -536,6 +537,7 @@ h3 {
 
 .subscribe_email {
     display: flex;
+    padding-top: 36px;
 }
 
 .subscribe_form {
@@ -665,6 +667,7 @@ prefooter_li {
 
 .catalog_top {
     height: 148px;
+    width: 100%;
     background-color: rgba(248, 243, 244, 1);
 }
 
@@ -690,6 +693,7 @@ prefooter_li {
     text-align: center;
     line-height: 20px;
     text-transform: uppercase;
+    padding-right: 230px;
 }
 
 .catalog_nav:hover {
@@ -706,7 +710,6 @@ prefooter_li {
     justify-content: space-between;
     height: 115px;
     width: 848px;
-    margin-left: 49px;
     padding-right: 130px;
     padding-top: 71px;
 }
@@ -729,7 +732,7 @@ prefooter_li {
     text-transform: uppercase;
 }
 
-.size {
+.cat_size {
     width: 124px;
     padding-left: 114px;
 }
@@ -738,8 +741,7 @@ prefooter_li {
     width: 846px;
     height: 50px;
     background-color: rgba(243, 243, 243, 1);
-
-
+    margin-bottom: 48px;
 }
 
 .drop {
@@ -749,6 +751,9 @@ prefooter_li {
     top: 48px;
 }
 
+.catalog_info {
+    margin-left: 49px;
+}
 .drop__h3 {
     font-size: 14px;
     color: #f16d7f;
@@ -790,10 +795,10 @@ prefooter_li {
 
 .product-box {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    
+    flex-flow: wrap;
     width: 848px;
+
 }
 
 .product:hover {
@@ -849,6 +854,10 @@ prefooter_li {
     box-shadow: 0 0 6px #fff;
 }
 
+.pagination {
+    display: flex;
+}
+
 .viewall_butt {
     font-size: 15px;
     color: #ffffff;
@@ -858,16 +867,22 @@ prefooter_li {
     padding: 12px 16px;
     border: 1px solid #f16d7f;
     border-radius: 3px;
+    margin-bottom: 110px;
 }
 
-.button:hover {
+.viewall_butt:hover {
     border: 1px solid #f16d7f;
     background-color: #fff;
     color: #f16d7f;
 }
 
 .feature_box {
-    height: 341px;
-    width: 1600px;
     background-color: rgba(34, 34, 36, 1);
+    display: flex;
+    height: 341px;
+    align-items: center;
+}
+
+.cat_promo {
+    
 }
