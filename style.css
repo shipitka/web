@@ -459,12 +459,12 @@ h3 {
 }
 
 .subscribe {
-    background-image: url(img/2194.png);
     height: 438px;
-    background-position: center;
-    background-repeat: no-repeat;
     margin-bottom: 109px;
     background-color: rgba(242, 242, 242, 0.5);
+    height: 438px;
+    background: url(img/2196.png), url(img/sub-back.png) no-repeat center;
+    background-size: cover;
 }
 
 .subscribe_left {
@@ -523,8 +523,7 @@ h3 {
 .subscribe_info1 {
     font-size: 24px;
     letter-spacing: 0.03em;
-    line-height: 54px;
-    padding: 0;
+    color: black;
 }
 
 .subscribe_info2 {
@@ -532,7 +531,6 @@ h3 {
     letter-spacing: 0.03em;
     line-height: 24px;
     width: 290px;
-    margin-top: 10px;
 }
 
 .subscribe_email {
@@ -619,7 +617,7 @@ li {
 
 }
 
-prefooter_li {
+.prefooter_li {
     font-size: 16px;
     text-align: left;
     letter-spacing: 0.03em;
@@ -670,35 +668,49 @@ prefooter_li {
     height: 148px;
     width: 100%;
     background-color: rgba(248, 243, 244, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .catalog_head {
-    padding-left: 80px;
-    margin-top: 65px;
-    position: absolute;
     font-size: 24px;
     font-weight: 900;
     color: rgba(241, 109, 127, 1);
     text-align: center;
     line-height: 20px;
     text-transform: uppercase;
+    padding-left: 100px;
 }
 
-.catalog_nav {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 65px;
+.cart_nav {
+    padding-right: 100px;
+}
+
+.bc__link {
     font-size: 14px;
-    font-weight: 300;
-    color: rgba(99, 99, 99, 1);
+    font-weight: normal;
+    color: black;
     text-align: center;
     line-height: 20px;
     text-transform: uppercase;
-    padding-right: 230px;
+
 }
 
-.catalog_nav:hover {
+.bc__link:not(:last-child):after {
+    content: "/";
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.bc__link:hover {
+    color: rgba(241, 109, 127, 1)
+}
+
+.bc__link_active {
     color: rgba(241, 109, 127, 1);
+    font-weight: bold;
 }
 
 .catalog_left {
@@ -752,6 +764,39 @@ checkbox {
     height: 50px;
     background-color: rgba(243, 243, 243, 1);
     margin-bottom: 48px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sort_left,
+.sort_right {
+    display: flex;
+}
+
+.sort_left {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.sort_by {
+    width: 66px;
+    height: 30px;
+    font-size: 14px;
+    color: rgba(111, 110, 110, 1);
+    line-height: 26px;
+    text-align: center;
+    background-color: white;
+}
+
+.sort_name {
+    width: 66px;
+    height: 30px;
+    font-size: 14px;
+    color: rgba(111, 110, 110, 1);
+    line-height: 26px;
+    text-align: center;
+    background-color: white;
 }
 
 .drop {
@@ -865,8 +910,18 @@ checkbox {
     box-shadow: 0 0 6px #fff;
 }
 
-.pagination {
+.product_bottom {
     display: flex;
+    justify-content: space-between;
+}
+
+.pagination_main {
+    display: flex;
+    padding-left: 400px;
+}
+
+.viewall {
+    padding-right: 150px;
 }
 
 .viewall_butt {
@@ -993,6 +1048,7 @@ checkbox {
     width: 54px;
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(234, 234, 234, 1);
+
 }
 
 .cart_product_action {
@@ -1043,6 +1099,10 @@ checkbox {
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(234, 234, 234, 1);
     margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(177, 177, 177, 1);
+    padding-left: 20px;
 }
 
 .cart_sum_adress_button {
@@ -1054,6 +1114,11 @@ checkbox {
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(234, 234, 234, 1);
+}
+
+.cart_sum_adress_button:hover {
+    color: aliceblue;
+    background-color: rgba(241, 109, 127, 1);
 }
 
 .cart_sum_total {
@@ -1104,6 +1169,11 @@ checkbox {
     border: 1px solid rgba(234, 234, 234, 1);
 }
 
+.cart_sum_discount_button:hover {
+    color: aliceblue;
+    background-color: rgba(241, 109, 127, 1);
+}
+
 .cart_sum_total_button {
     font-size: 16px;
     font-weight: bold;
@@ -1140,7 +1210,7 @@ checkbox {
     text-align: right;
     padding-bottom: 40px;
     padding-right: 41px;
-    
+
 }
 
 .button_div {

@@ -11,7 +11,7 @@
 </head>
 <header class="header center">
     <div class="header__left">
-        <a href="#" class="logo">
+        <a href="index.html" class="logo">
             <img class="logo__img" src="img/logo.png" alt="logo">BRAN<div class="logo_d">D</div>
         </a>
         <form action="#" class="header__form" required>
@@ -39,11 +39,11 @@
 <main class="catalog">
     <div class="catalog_top">
         <a href="#" class="catalog_head">NEW ARRIVALS</a>
-        <div class="catalog_nav">
-            <a href="" class="catalog_nav1">Home</a> /
-            <a href="" class="catalog_nav2">Men</a> /
-            <a href="" class="catalog_nav3">New Arrivals</a>
-        </div>
+        <nav class="cart_nav">
+            <a href="#" class="bc__link">Home</a>
+            <a href="#" class="bc__link">Men</a>
+            <a href="#" class="bc__link bc__link_active">New Arrivals</a>
+        </nav>
     </div>
     <div class="catalog_menu">
         <div class="catalog_left">
@@ -106,7 +106,18 @@
                 </div>
             </div>
             <div class="sort center">
-
+                <div class="sort_left">
+                    <div class="sort_by">Sort By</div>
+                    <details class="sort_name">
+                        <summary>By</summary>
+                    </details>
+                </div>
+                <div class="sort_right">
+                    <div class="sort_by">Show</div>
+                    <details class="sort_name">
+                        <summary>09</summary>
+                    </details>
+                </div>
             </div>
             <div class="product-box center">
                 <div class="product">
@@ -157,50 +168,47 @@
                     </div>
                     <a href="#" class="product__add">Add to Cart</a>
                 </div>
-                <div class="catalog_pages">
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination">
-                            <li class="page-item disabled">
-                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true"></a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">Next</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="viewall">
-                    <button class="viewall_butt">View All</button>
-                </div>
             </div>
         </div>
     </div>
+    <div class="product_bottom">
+        <nav class="pagination">
+            <ul class="pagination_main">
+                <li class="page-item"><a class="page-link" href="#">&lt;</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">&gt;</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="viewall">
+            <button class="viewall_butt">View All</button>
+        </div>
+    </div>
     <div class="feature_box">
-            <div class="cat_promo">
-                <div class="women_img_cat"><img src="img/1322.png" alt="truck"></div>
-                <div class="women_text_cat">
-                    <h3>Free Delivery</h3><br>
-                    <h5 class="women_describe">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h5>
-                </div>
-            </div>
-            <div class="cat_promo">
-                <div class="women_img_cat"><img class="women_img_cat" src="img/1340.png" alt="percent"></div>
-                <div class="women_text_cat">
-                    <h3>Sales & discounts</h3><br>
-                    <h5 class="women_describe">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h5>
-                </div>
-            </div>
-            <div class="cat_promo">
-                <div class="women_img_cat"><img class="women_img_cat" src="img/1341.png" alt="crown"></div>
-                <div class="women_text_cat">
-                    <h3>Quality assurance</h3><br>
-                    <h5 class="women_describe">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h5>
-                </div>
+        <div class="cat_promo">
+            <div class="women_img_cat"><img src="img/1322.png" alt="truck"></div>
+            <div class="women_text_cat">
+                <h3>Free Delivery</h3><br>
+                <h5 class="women_describe">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h5>
             </div>
         </div>
+        <div class="cat_promo">
+            <div class="women_img_cat"><img class="women_img_cat" src="img/1340.png" alt="percent"></div>
+            <div class="women_text_cat">
+                <h3>Sales & discounts</h3><br>
+                <h5 class="women_describe">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h5>
+            </div>
+        </div>
+        <div class="cat_promo">
+            <div class="women_img_cat"><img class="women_img_cat" src="img/1341.png" alt="crown"></div>
+            <div class="women_text_cat">
+                <h3>Quality assurance</h3><br>
+                <h5 class="women_describe">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h5>
+            </div>
+        </div>
+    </div>
 </main>
 <section class="subscribe center">
     <div class="subscribe_left">
@@ -214,9 +222,9 @@
         </div>
     </div>
     <div class="subscribe_text_right">
-        <p class="subscribe_info1">SUBSCRIBE <br>
+        <h3 class="subscribe_info1">SUBSCRIBE <br> </h3>
             <h5 class="subscribe_info2">FOR OUR NEWLETTER AND PROMOTION</h5>
-        </p>
+        
         <div class="subscribe_email">
             <input class="subscribe_form" placeholder="Enter Your Email" type="text">
             <button class="subscribe_button">Subscribe</button>
@@ -240,11 +248,11 @@
             <div class="prefooter_list">
                 <div class="prefooter_head">COMPANY</div>
                 <ul class="prefooter_list">
-                    <li class="prefooter_li"><a href="">Home</a></li>
-                    <li class="prefooter_li"><a href="">Shop</a></li>
-                    <li class="prefooter_li"><a href="">About</a></li>
-                    <li class="prefooter_li"><a href="">How It Works</a></li>
-                    <li class="prefooter_li"><a href="">Contact</a></li>
+                    <li><a class="prefooter_li" href="">Home</a></li>
+                    <li><a class="prefooter_li" href="">Shop</a></li>
+                    <li><a class="prefooter_li" href="">About</a></li>
+                    <li><a class="prefooter_li" href="">How It Works</a></li>
+                    <li><a class="prefooter_li" href="">Contact</a></li>
                 </ul>
             </div>
             <div class="prefooter_list">
@@ -260,11 +268,11 @@
             <div class="prefooter_list">
                 <div class="prefooter_head">SHOP CATEGORY</div>
                 <ul>
-                    <li class="prefooter_li"><a href="">Men</a></li>
-                    <li class="prefooter_li"><a href="">Women</a></li>
-                    <li class="prefooter_li"><a href="">Child</a></li>
-                    <li class="prefooter_li"><a href="">Apparel</a></li>
-                    <li class="prefooter_li"><a href="">Brows All</a></li>
+                    <li><a class="prefooter_li" href="">Men</a></li>
+                    <li><a class="prefooter_li" href="">Women</a></li>
+                    <li><a class="prefooter_li" href="">Child</a></li>
+                    <li><a class="prefooter_li" href="">Apparel</a></li>
+                    <li><a class="prefooter_li" href="">Brows All</a></li>
                 </ul>
             </div>
         </div>
@@ -278,7 +286,7 @@
             <button class="pic"><i class="fab fa-facebook-f"></i></button>
             <button class="pic"><i class="fab fa-twitter"></i></button>
             <button class="pic"><i class="fab fa-instagram"></i></button>
-             <button class="pic"><i class="fab fa-pinterest"></i></button>
+            <button class="pic"><i class="fab fa-pinterest"></i></button>
             <button class="pic"><i class="fab fa-google-plus-g"></i></button>
         </div>
     </div>
