@@ -45,87 +45,56 @@
             <a href="#" class="bc__link bc__link_active">New Arrivals</a>
         </nav>
     </div>
-    <div class="main_cart">
-        <div class="cart_top">
-            <h3 class="cart_top_text1">Product Details</h3>
-            <h3 class="cart_top_text">unite Price</h3>
-            <h3 class="cart_top_text">Quantity</h3>
-            <h3 class="cart_top_text">shipping</h3>
-            <h3 class="cart_top_text">subtotal</h3>
-            <h3 class="cart_top_text">action</h3>
+    <details class = "shipping">
+        <summary class="shipping_text">01. SHIPPING ADRESS</summary>
+        <div class="shipping_main">
+            <div class="shipping_col">
+                <h4 class="shipping_h4">Check as a guest or register</h4>
+                <h6 class="shipping_h6">Register with us for future convenience</h6>
+                <input id="shipping_radio1" type="radio">
+                <label for="shipping_radio1">checkout as guest</label><br>
+                <input id="shipping_radio2" type="radio">
+                <label for="shipping_radio2">register</label>
+                <h4 class="shipping_h4_save">register and save time!</h4>
+                <h6 class="shipping_h6">Register with us for future convenience</h6>
+                <ul>
+                    <li class="shipping_h6_li">Fast and easy checkout</li>
+                    <li class="shipping_h6_li">Easy access to your order history and status</li>
+                </ul>
+                <button class="shipping_button">Continue</button>
+            </div>
+            <div class="shipping_col">
+                <h4 class="shipping_h4">Already registed?</h4>
+                <h6 class="shipping_h6">Please log in below</h6>
+                <h5 class="shipping_h5">EMAIL ADRESS<sup>*</sup></h5>
+                <input class="shipping_input" type="text" required>
+                <h5 class="shipping_h5">PASSWORD<sup>*</sup></h5>
+                <input class="shipping_input" type="text" required>
+                <div class="shipping_log">
+                    <button class="shipping_button_log">LOG IN</button>
+                    <a class="shipping_h4_forgot" href="#">Forgot password?</a>
+                </div>
+            </div>
         </div>
-        <div class="cart_product">
+    </details>
+    <details class = "shipping">
+        <summary class="shipping_text">02. BILLING INFORMATION</summary>
+    </details>
+    <details class = "shipping">
+        <summary class="shipping_text">03. SHIPPING INFORMATION</summary>
+    </details>
+    <details class = "shipping">
+        <summary class="shipping_text">04. SHIPPING METHOD</summary>
+    </details>
+    <details class = "shipping">
+        <summary class="shipping_text">05. PAYMENT METHOD</summary>
+    </details>
+    <details class = "shipping">
+        <summary class="shipping_text">06. ORDER REVIEW</summary>
+    </details>
 
-            <div class="product_in_cart">
-                <div class="cart_product_photo"> <img src="img/2879.png" alt=""></div>
-                <div class="cart_product_description">Mango People T-shirt Color: Red <br> Size: Xll</div>
-            </div>
-            <div class="cart_product_price">$150</div>
-            <div class="cart_product_quantity"><input class="cart_product_quantity_input" type="text"></div>
-            <div class="cart_product_shipping">
-                <h5 class="cart_free">FREE</h5>
-            </div>
-            <div class="cart_product_subtotal">
-                <h5 class="cart_product_subtotal_text">$500</h5>
-            </div>
-            <div class="cart_product_action"><i class="fas fa-times-circle"></i></div>
-        </div>
-        <div class="cart_product">
-            <div class="product_in_cart">
-                <div class="cart_product_photo"><img src="img/2879.png" alt=""></div>
-                <div class="cart_product_description">Mango People T-shirt Color: Red <br> Size: Xll</div>
-            </div>
-            <div class="cart_product_price">$150</div>
-            <div class="cart_product_quantity"><input class="cart_product_quantity_input" type="text"></div>
-            <div class="cart_product_shipping">
-                <h5 class="cart_free">FREE</h5>
-            </div>
-            <div class="cart_product_subtotal">
-                <h5 class="cart_product_subtotal_text">$500</h5>
-            </div>
-            <div class="cart_product_action"><i class="fas fa-times-circle"></i></div>
-        </div>
-        <div class="cart_product">
-            <div class="product_in_cart">
-                <div class="cart_product_photo"> <img src="img/2879.png" alt=""></div>
-                <div class="cart_product_description">Mango People T-shirt Color: Red <br> Size: Xll</div>
-            </div>
-            <div class="cart_product_price">$150</div>
-            <div class="cart_product_quantity"><input class="cart_product_quantity_input" type="text"></div>
-            <div class="cart_product_shipping">
-                <h5 class="cart_free">FREE</h5>
-            </div>
-            <div class="cart_product_subtotal">
-                <h5 class="cart_product_subtotal_text">$500</h5>
-            </div>
-            <div class="cart_product_action"><i class="fas fa-times-circle"></i></div>
-        </div>
-        <div class="cart_bottom">
-            <button class="cart_button">CLEAR SHOPPING CART</button>
-            <button class="cart_button">CONTINUE SHOPPING</button>
-        </div>
-    </div>
-    <div class="cart_sum">
-        <div class="cart_sum_adress">
-            <h3 class="cart_sum_adress_text">Shipping Adress</h3>
-            <input class="cart_sum_adress_input" type="text">
-            <input class="cart_sum_adress_input" type="text" placeholder="State">
-            <input class="cart_sum_adress_input" type="text" placeholder="Postcode / Zip">
-            <button class="cart_sum_adress_button">Get A qoute</button>
-        </div>
-        <div class="cart_sum_discount">
-            <h3 class="cart_sum_discount_text">coupon discount</h3>
-            <h6 class="cart_sum_discount_text2">Enter your coupon code if you have one</h6>
-            <input class="cart_sum_adress_input" type="text" placeholder="State">
-            <button class="cart_sum_discount_button">Apply coupon</button>
-        </div>
-        <div class="cart_sum_total">
-            <h6 class="cart_sum_total_text1">Sub total $900</h6>
-            <h3 class="cart_sum_total_text2">GRAND TOTAL $900</h3>
-            <div class="button_div"><button class="cart_sum_total_button">proceed to checkout</button></div>
-        </div>
-    </div>
 </main>
+
 
 <section class="subscribe center">
     <div class="subscribe_left">
@@ -140,17 +109,14 @@
     </div>
     <div class="subscribe_text_right">
         <p class="subscribe_info1">SUBSCRIBE <br>
-            <h5 class="subscribe_info2">FOR OUR NEWLETTER AND PROMOTION</h5>
+        <h5 class="subscribe_info2">FOR OUR NEWLETTER AND PROMOTION</h5>
         </p>
         <div class="subscribe_email">
             <input class="subscribe_form" placeholder="Enter Your Email" type="text">
             <button class="subscribe_button">Subscribe</button>
         </div>
     </div>
-
 </section>
-</main>
-
 <section class="prefooter">
     <div class="prefooter_text">
         <div class="prefooter_brand">
