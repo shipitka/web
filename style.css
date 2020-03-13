@@ -126,6 +126,11 @@ a {
 
 .logo__img {
   margin-right: 13px;
+  transition: transform 0.3s;
+}
+
+.logo__img:hover {
+  transform: rotate(360deg);
 }
 
 .logo_d {
@@ -1236,6 +1241,7 @@ label {
   color: #222222;
   text-transform: uppercase;
   margin-bottom: 20px;
+  padding-left: 15px;
 }
 
 .shipping_h6_li {
@@ -1251,11 +1257,13 @@ label {
   width: 180px;
   background-color: white;
   border: 1px solid #eaeaea;
+  transition: transform 0.3s;
 }
 
 .shipping_button:hover {
   background-color: #f16d7f;
   color: aliceblue;
+  transform: scale(1.05);
 }
 
 .shipping_input {
@@ -1284,11 +1292,13 @@ label {
   width: 180px;
   background-color: white;
   border: 1px solid #eaeaea;
+  transition: transform 0.3s;
 }
 
 .shipping_button_log:hover {
   background-color: #f16d7f;
   color: aliceblue;
+  transform: scale(1.05);
 }
 
 .shipping_h4_forgot {
