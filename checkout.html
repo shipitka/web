@@ -51,8 +51,12 @@
             <div class="shipping_col">
                 <h4 class="shipping_h4">Check as a guest or register</h4>
                 <h6 class="shipping_h6">Register with us for future convenience</h6>
-                <label for="shipping_radio1"> <input name="shipping_radio" id="shipping_radio1" type="radio" checked>checkout as guest</label><br>
-                <label for="shipping_radio2"><input name="shipping_radio" id="shipping_radio2" type="radio">register</label>
+                <div class="radio_input">
+                <label><input name="shipping_radio" type="radio" checked>
+                    <h4 class="shipping_radio_text">checkout as guest</h4></label>
+                <label><input name="shipping_radio" type="radio">
+                    <h4 class="shipping_radio_text">register</h4></label>
+            </div>
                 <h4 class="shipping_h4_save">register and save time!</h4>
                 <h6 class="shipping_h6">Register with us for future convenience</h6>
                 <ul>
@@ -68,6 +72,7 @@
                 <input class="shipping_input" type="text" required>
                 <h5 class="shipping_h5">PASSWORD<sup>*</sup></h5>
                 <input class="shipping_input" type="text" required>
+                <h5 class="shipping_h5_red">* Required Fileds</h5>
                 <div class="shipping_log">
                     <button class="shipping_button_log">LOG IN</button>
                     <a class="shipping_h4_forgot" href="#">Forgot password?</a>

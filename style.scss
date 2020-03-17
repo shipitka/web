@@ -59,6 +59,7 @@ a {
     text-align: left;
     letter-spacing: 0.03em;
     line-height: 32px;
+    padding-left: 15px;
 }
 
 .header_button {
@@ -1249,11 +1250,44 @@ li {
   padding-bottom: 34px;
 }
 
-label {
-  color: rgba(34, 34, 34, 1);
-  text-transform: uppercase;
-  margin-bottom: 20px;
+.radio_input {
+    display: flex;
+    flex-direction: column;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+    margin-bottom: 20px;
     padding-left: 15px;
+}
+
+.radio_input input[type=radio] {
+    height: 14px;
+    width: 14px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid black;
+    border-radius: 14px;
+}
+
+.radio_input label {
+    display: flex;
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: rgba(34, 34, 34, 1);
+    text-transform: uppercase;
+}
+
+.shipping_radio_text {
+    padding-left: 14px;
+    font-weight: 600;
+}
+sup {
+    color: red;
+    font-size: 15px;
+}
+
+.shipping_h5_red {
+    font-size: 13px;
+    color: rgba(255, 13, 13, 1);
+    line-height: 20px;
 }
 
 .shipping_h6_li {
@@ -1284,6 +1318,8 @@ label {
   background-color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(234, 234, 234, 1);
   margin-bottom: 23px;
+    padding-left: 10px;
+    font-size: 20px;
 }
 
 .shipping_h5 {
@@ -1296,7 +1332,7 @@ label {
 .shipping_log {
   display: flex;
   text-align: center;
-  margin-top: 23px;
+  margin-top: 33px;
 }
 
 .shipping_button_log {

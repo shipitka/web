@@ -34,6 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/sass" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,6 +49,8 @@
       <workItem from="1584020823239" duration="1089000" />
       <workItem from="1584086697808" duration="5909000" />
       <workItem from="1584109564879" duration="1049000" />
+      <workItem from="1584367737201" duration="3095000" />
+      <workItem from="1584415951168" duration="2318000" />
     </task>
     <servers />
   </component>
@@ -67,9 +70,13 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="462" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1584020875421" />
-    <state x="379" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1584109564867">
+    <state x="184" y="11" key="SettingsEditor" timestamp="1584417105209">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1584109564867" />
+    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1584417105209" />
+    <state x="379" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1584415963536">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="379" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1584415963536" />
   </component>
 </project>
