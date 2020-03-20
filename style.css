@@ -736,13 +736,25 @@ li {
 }
 
 .cat_size {
-  width: 124px;
   padding-left: 114px;
   font-size: 14px;
   color: #6f6e6e;
   line-height: 20px;
   text-transform: uppercase;
   flex-wrap: wrap;
+}
+
+.sizes {
+  padding-top: 8px;
+}
+
+.cat_size_XL {
+  margin-left: 18px;
+}
+
+.cat_size label {
+  padding-left: 10px;
+  padding-right: 23px;
 }
 
 .sort {
@@ -1181,7 +1193,6 @@ li {
 }
 
 .button_div {
-  margin-left: 230px;
   display: flex;
   justify-content: center;
 }
@@ -1248,11 +1259,16 @@ li {
 }
 
 .radio_input input[type=radio] {
+  -webkit-appearance: none;
   height: 14px;
   width: 14px;
   background-color: white;
-  border: 2px solid black;
+  border: 2px solid #555555;
   border-radius: 14px;
+}
+
+.radio_input input[type=radio]:checked {
+  background: url("img/3074.png") center no-repeat;
 }
 
 .radio_input label {
