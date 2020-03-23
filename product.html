@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0d0afcbfaf.js" crossorigin="anonymous"></script>
+</head>
+<header class="header center">
+    <div class="header__left">
+        <a href="index.html" class="logo">
+            <img class="logo__img" src="img/logo.png" alt="logo">BRAN<div class="logo_d">D</div>
+        </a>
+        <form action="#" class="header__form" required>
+            <button class="browse">Browse</button>
+            <input class="input_form" placeholder="Search for Item..." type="text">
+            <button class="header_button"><img src="img/search.png" alt="search"></button>
+        </form>
+    </div>
+    <div class="header__right">
+        <img class="header__cart" src="img/cart.png" alt="cart">
+        <a class="button" href="#">My account &#9660;</a>
+    </div>
+</header>
+<nav class="nav">
+    <ul class="menu center">
+        <li class="menu__list"><a href="#" class="menu__link">Home</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">Man</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">Women</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">Kids</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">Accoseriese</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">Featured</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">Hot Deals</a></li>
+    </ul>
+</nav>
+<main class="catalog">
+    <div class="catalog_top">
+        <a href="#" class="catalog_head">NEW ARRIVALS</a>
+        <nav class="cart_nav">
+            <a href="#" class="bc__link">Home</a>
+            <a href="#" class="bc__link">Men</a>
+            <a href="#" class="bc__link bc__link_active">New Arrivals</a>
+        </nav>
+    </div>
+    <div class="catalog_menu">
+        <div class="catalog_left">
+            <details class="drop__h3">
+                <summary>CATEGORY</summary>
+                <div class="drop">
+                    <div class="drop__col">
+                        <ul class="drop__ul">
+                            <li><a href="#" class="drop__a">Accessories</a></li>
+                            <li><a href="#" class="drop__a">Bags</a></li>
+                            <li><a href="#" class="drop__a">Denim</a></li>
+                            <li><a href="#" class="drop__a">Hoodies & Sweetshirts</a></li>
+                            <li><a href="#" class="drop__a">Jackets & Coats</a></li>
+                            <li><a href="#" class="drop__a">Pants</a></li>
+                            <li><a href="#" class="drop__a">Polos</a></li>
+                            <li><a href="#" class="drop__a">Shirts</a></li>
+                            <li><a href="#" class="drop__a">Shoes</a></li>
+                            <li><a href="#" class="drop__a">Shorts</a></li>
+                            <li><a href="#" class="drop__a">Sweeters & Knits</a></li>
+                            <li><a href="#" class="drop__a">T-shirts</a></li>
+                            <li><a href="#" class="drop__a">Tanks</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </details>
+            <details class="drop__h3">
+                <summary>BRAND</summary>
+            </details>
+            <details class="drop__h3">
+                <summary>DESIGNER</summary>
+            </details>
+        </div>
+        <div class="catalog_info">
+            <div class="catalog_right">
+                <div class="cat_now">
+                    <h3 class="product_catalog_h3">TRENDING NOW</h3>
+                    <div class="now_nav">
+                        <a href="" class="catalog_now">Bohemian</a> |
+                        <a href="" class="catalog_now">Floral</a> |
+                        <a href="" class="catalog_now">Lace</a> <br>
+                        <a href="" class="catalog_now">Floral</a> |
+                        <a href="" class="catalog_now">Lace</a> |
+                        <a href="" class="catalog_now">Bohemian</a>
+
+                    </div>
+                </div>
+                <div class="cat_size">
+                    <h3 class="product_catalog_h3">SIZE</h3>
+                    <div class="sizes">
+                    <input type="checkbox" id="XXS" value="XXS"><label for="XXS">XXS</label>
+                    <input type="checkbox" id="XS" value="XS"><label for="XS">XS</label>
+                    <input type="checkbox" id="S" value="S"><label for="S">S</label>
+                    <input type="checkbox" id="M" value="M"><label for="M">M</label> <br>
+                    <input type="checkbox" id="L" value="L"><label for="L">L</label>
+                    <input class="cat_size_XL" type="checkbox" id="XL" value="XL"><label for="XL">XL</label>
+                    <input type="checkbox" id="XXL" value="XXL"><label for="XXL">XXL</label>
+                    </div>
+                </div>
+                <div class="cat_price">
+                    <h3 class="product_catalog_h3">PRICE</h3>
+                    <input type="range" min="$0" max="1000$">
+                </div>
+            </div>
+            <div class="sort center">
+                <div class="sort_left">
+                    <div class="sort_by">Sort By</div>
+                    <details class="sort_name">
+                        <summary>By</summary>
+                    </details>
+                </div>
+                <div class="sort_right">
+                    <div class="sort_by">Show</div>
+                    <details class="sort_name">
+                        <summary>09</summary>
+                    </details>
+                </div>
+            </div>
+            <div class="product-box center">
+                <div class="product">
+                    <a href="#"><img class="product__img" src="img/1248.png" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="#" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="#" class="product_add">Add to Cart</a>
+                </div>
+                <div class="product">
+                    <a href="#"><img class="product__img" src="img/1209.png" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="#" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="#" class="product_add">Add to Cart</a>
+                </div>
+                <div class="product">
+                    <a href="#"><img class="product__img" src="img/1248.png" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="#" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="#" class="product_add">Add to Cart</a>
+                </div>
+                <div class="product">
+                    <a href="#"><img class="product__img" src="img/1240.png" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="#" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="#" class="product_add">Add to Cart</a>
+                </div>
+                <div class="product">
+                    <a href="#"><img class="product__img" src="img/1193.png" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="#" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="#" class="product_add">Add to Cart</a>
+                </div>
+                <div class="product">
+                    <a href="#"><img class="product__img" src="img/1201.png" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="#" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="#" class="product_add">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product_bottom">
+        <nav class="pagination">
+            <ul class="pagination_main">
+                <li class="page-item"><a class="page-link" href="#">&lt;</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">&gt;</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="viewall">
+            <button class="viewall_butt">View All</button>
+        </div>
+    </div>
+    <div class="feature_box">
+        <div class="cat_promo">
+            <div class="women_img_cat"><img src="img/1322.png" alt="truck"></div>
+            <div class="women_text_cat">
+                <h3>Free Delivery</h3><br>
+                <h5 class="women_describe">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h5>
+            </div>
+        </div>
+        <div class="cat_promo">
+            <div class="women_img_cat"><img class="women_img_cat" src="img/1340.png" alt="percent"></div>
+            <div class="women_text_cat">
+                <h3>Sales & discounts</h3><br>
+                <h5 class="women_describe">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h5>
+            </div>
+        </div>
+        <div class="cat_promo">
+            <div class="women_img_cat"><img class="women_img_cat" src="img/1341.png" alt="crown"></div>
+            <div class="women_text_cat">
+                <h3>Quality assurance</h3><br>
+                <h5 class="women_describe">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h5>
+            </div>
+        </div>
+    </div>
+</main>
+<section class="subscribe center">
+    <div class="subscribe_left">
+        <div class="subscribe_photo"><img src="img/2206.png" alt="photo"></div>
+        <div class="subscribe_text">
+            <p class="subscribe_text_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero laborum quidem animi non quas dolor, error similique molestiae consequatur blanditiis?</p>
+            <div class="subscribe_text_nameplace">
+                <h5 class="subscribe_text_name">Bin Burhan</h5>
+                <h6 class="subscribe_text_place">Dhaka, Bd</h6>
+            </div>
+        </div>
+    </div>
+    <div class="subscribe_text_right">
+        <h3 class="subscribe_info1">SUBSCRIBE <br> </h3>
+            <h5 class="subscribe_info2">FOR OUR NEWLETTER AND PROMOTION</h5>
+        
+        <div class="subscribe_email">
+            <input class="subscribe_form" placeholder="Enter Your Email" type="text">
+            <button class="subscribe_button">Subscribe</button>
+        </div>
+    </div>
+
+</section>
+
+<section class="prefooter">
+    <div class="prefooter_text">
+        <div class="prefooter_brand">
+            <a href="#" class="logo">
+                <img class="logo__img" src="img/logo.png" alt="logo">BRAN<div class="logo_d">D</div>
+            </a>
+            <p class="prefooter_info">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit. <br>
+                Efficiently plagiarize 24/365 action items and focused infomediaries.
+                Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+            </p>
+        </div>
+        <div class="prefooter_menu">
+            <div class="prefooter_list">
+                <div class="prefooter_head">COMPANY</div>
+                <ul class="prefooter_list">
+                    <li><a class="prefooter_li" href="">Home</a></li>
+                    <li><a class="prefooter_li" href="">Shop</a></li>
+                    <li><a class="prefooter_li" href="">About</a></li>
+                    <li><a class="prefooter_li" href="">How It Works</a></li>
+                    <li><a class="prefooter_li" href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="prefooter_list">
+                <div class="prefooter_head">INFORMATION</div>
+                <ul>
+                    <li><a class="prefooter_li" href="">Tearms & Condition</a></li>
+                    <li><a class="prefooter_li" href="">Privacy Policy</a></li>
+                    <li><a class="prefooter_li" href="">How to Buy</a></li>
+                    <li><a class="prefooter_li" href="">How to Sell</a></li>
+                    <li><a class="prefooter_li" href="">Promotion</a></li>
+                </ul>
+            </div>
+            <div class="prefooter_list">
+                <div class="prefooter_head">SHOP CATEGORY</div>
+                <ul>
+                    <li><a class="prefooter_li" href="">Men</a></li>
+                    <li><a class="prefooter_li" href="">Women</a></li>
+                    <li><a class="prefooter_li" href="">Child</a></li>
+                    <li><a class="prefooter_li" href="">Apparel</a></li>
+                    <li><a class="prefooter_li" href="">Brows All</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer_bottom">
+        <div class="copy">© 2017 Brand All Rights Reserved.</div>
+        <div class="soc_pics">
+            <button class="pic"><i class="fab fa-facebook-f"></i></button>
+            <button class="pic"><i class="fab fa-twitter"></i></button>
+            <button class="pic"><i class="fab fa-instagram"></i></button>
+            <button class="pic"><i class="fab fa-pinterest"></i></button>
+            <button class="pic"><i class="fab fa-google-plus-g"></i></button>
+        </div>
+    </div>
+</footer>
+
+</html>
