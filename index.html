@@ -11,10 +11,10 @@
 </head>
 <header class="header center">
     <div class="header__left">
-        <a href="#" class="logo">
+        <a href="index.html" class="logo">
             <img class="logo__img" src="img/logo.png" alt="logo">BRAN<div class="logo_d">D</div>
         </a>
-        <form action="#" class="header__form" required>
+        <form action="#" class="header__form">
             <button class="browse">Browse</button>
             <input class="input_form" placeholder="Search for Item..." type="text">
             <button class="header_button"><img src="img/search.png" alt="search"></button>
@@ -27,7 +27,7 @@
 </header>
 <nav class="nav">
     <ul class="menu center">
-        <li class="menu__list"><a href="#" class="menu__link">Home</a></li>
+        <li class="menu__list"><a href="index.html" class="menu__link">Home</a></li>
         <li class="menu__list"><a href="product.html" class="menu__link">Man</a></li>
         <li class="menu__list"><a href="#" class="menu__link">Women</a></li>
         <li class="menu__list"><a href="#" class="menu__link">Kids</a></li>
@@ -37,12 +37,14 @@
     </ul>
 </nav>
 <main>
-    <section class="promo center">
+    <div class="promo center">
         <div class="promo__content">
             <h1 class="promo__h1">THE BRAND</h1>
-            <h2 class="promo__h2">OF LUXERIOUS FASHION</h2>
+            <div class = "promo_h2"><h2 class="promo__h2">OF LUXERIOUS</h2>
+                <h2 class="h2_fashion">FASHION</h2>
+            </div>
         </div>
-    </section>
+    </div>
     <section class="banner center">
         <div class="banner_left">
             <div class="left_top_banner">
@@ -88,25 +90,25 @@
                 <a href="#"> <img class="product_img" src="img/1193.png" alt="product1">
                     <a href="#" class="featured_text1"><br>MANGO PEOPLE T-SHIRT<br></a>
                     <div class="featured_text2">$52.00</div>
-                    <a href="#" class="product_add">Add to Cart</a>
+                    <a href="#" class="product_add"><i class="fas fa-shopping-cart"></i>&nbsp;Add to Cart</a>
             </div>
             <div class="featured_product">
                 <a href="#"> <img class="product_img" src="img/1201.png" alt="product2">
                     <a href="#" class="featured_text1"><br>MANGO PEOPLE T-SHIRT<br></a>
                     <div class="featured_text2">$52.00</div>
-                    <a href="#" class="product_add">Add to Cart</a>
+                    <a href="#" class="product_add"><i class="fas fa-shopping-cart"></i>&nbsp;Add to Cart</a>
             </div>
             <div class="featured_product">
                 <a href="#"> <img class="product_img" src="img/1209.png" alt="product3">
                     <a href="#" class="featured_text1"><br>MANGO PEOPLE T-SHIRT<br></a>
                     <div class="featured_text2">$52.00</div>
-                    <a href="#" class="product_add">Add to Cart</a>
+                    <a href="#" class="product_add"><i class="fas fa-shopping-cart"></i>&nbsp;Add to Cart</a>
             </div>
             <div class="featured_product">
                 <a href="#"> <img class="product_img" src="img/1240.png" alt="product4">
                     <a href="#" class="featured_text1"><br>MANGO PEOPLE T-SHIRT<br></a>
                     <div class="featured_text2">$52.00</div>
-                    <a href="#" class="product_add">Add to Cart</a>
+                    <a href="#" class="product_add"><i class="fas fa-shopping-cart"></i>&nbsp;Add to Cart</a>
             </div>
         </div>
         <div class="featured_main_bottom">
@@ -114,25 +116,25 @@
                 <a href="#"> <img class="product_img" src="img/1248.png" alt="product5">
                     <a href="#" class="featured_text1"><br>MANGO PEOPLE T-SHIRT<br></a>
                     <div class="featured_text2">$52.00</div>
-                    <a href="#" class="product_add">Add to Cart</a>
+                    <a href="#" class="product_add"><i class="fas fa-shopping-cart"></i>&nbsp;Add to Cart</a>
             </div>
             <div class="featured_product">
                 <a href="#"> <img class="product_img" src="img/1256.png" alt="product6"></a>
                 <a href="#" class="featured_text1"><br>MANGO PEOPLE T-SHIRT<br></a>
                 <div class="featured_text2">$52.00</div>
-                <a href="#" class="product_add">Add to Cart</a>
+                <a href="#" class="product_add"><i class="fas fa-shopping-cart"></i>&nbsp;Add to Cart</a>
             </div>
             <div class="featured_product">
                 <a href="#"> <img class="product_img" src="img/1264.png" alt="product7">
                     <a href="#" class="featured_text1"><br>MANGO PEOPLE T-SHIRT<br></a>
                     <div class="featured_text2">$52.00</div>
-                    <a href="#" class="product_add" img src="img/cart.png" alt="cart">Add to Cart</a>
+                    <a href="#" class="product_add"><i class="fas fa-shopping-cart"></i>&nbsp;Add to Cart</a>
             </div>
             <div class="featured_product">
                 <a href="#"> <img class="product_img" src="img/1272.png" alt="product8">
                     <a href="#" class="featured_text1"><br>MANGO PEOPLE T-SHIRT<br></a>
                     <div class="featured_text2">$52.00</div>
-                    <a href="#" class="product_add">Add to Cart</a>
+                    <a href="#" class="product_add"><i class="fas fa-shopping-cart"></i>&nbsp;Add to Cart</a>
             </div>
         </div>
         <a class="featured_button center" href="#">Browse All Product &#8594;</a>
@@ -182,9 +184,8 @@
             </div>
         </div>
         <div class="subscribe_text_right">
-            <p class="subscribe_info1">SUBSCRIBE <br>
-                <h5 class="subscribe_info2">FOR OUR NEWLETTER AND PROMOTION</h5>
-            </p>
+            <h3 class="subscribe_info1">SUBSCRIBE <br> </h3>
+            <h5 class="subscribe_info2">FOR OUR NEWLETTER AND PROMOTION</h5>
             <div class="subscribe_email">
                 <input class="subscribe_form" placeholder="Enter Your Email" type="text">
                 <button class="subscribe_button">Subscribe</button>
@@ -196,7 +197,7 @@
     <section class="prefooter">
         <div class="prefooter_text">
             <div class="prefooter_brand">
-                <a href="#" class="logo">
+                <a href="index.html" class="logo">
                     <img class="logo__img" src="img/logo.png" alt="logo">BRAN<div class="logo_d">D</div>
                 </a>
                 <p class="prefooter_info">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit. <br>
@@ -208,31 +209,31 @@
                 <div class="prefooter_list">
                     <div class="prefooter_head">COMPANY</div>
                     <ul class="prefooter_list">
-                        <li><a class="prefooter_li" href="">Home</a></li>
-                        <li><a class="prefooter_li" href="">Shop</a></li>
-                        <li><a class="prefooter_li" href="">About</a></li>
-                        <li><a class="prefooter_li" href="">How It Works</a></li>
-                        <li><a class="prefooter_li" href="">Contact</a></li>
+                        <li><a class="prefooter_li" href="#">Home</a></li>
+                        <li><a class="prefooter_li" href="#">Shop</a></li>
+                        <li><a class="prefooter_li" href="#">About</a></li>
+                        <li><a class="prefooter_li" href="#">How It Works</a></li>
+                        <li><a class="prefooter_li" href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="prefooter_list">
                     <div class="prefooter_head">INFORMATION</div>
                     <ul>
-                        <li><a class="prefooter_li" href="">Tearms & Condition</a></li>
-                        <li><a class="prefooter_li" href="">Privacy Policy</a></li>
-                        <li><a class="prefooter_li" href="">How to Buy</a></li>
-                        <li><a class="prefooter_li" href="">How to Sell</a></li>
-                        <li><a class="prefooter_li" href="">Promotion</a></li>
+                        <li><a class="prefooter_li" href="#">Tearms & Condition</a></li>
+                        <li><a class="prefooter_li" href="#">Privacy Policy</a></li>
+                        <li><a class="prefooter_li" href="#">How to Buy</a></li>
+                        <li><a class="prefooter_li" href="#">How to Sell</a></li>
+                        <li><a class="prefooter_li" href="#">Promotion</a></li>
                     </ul>
                 </div>
                 <div class="prefooter_list">
                     <div class="prefooter_head">SHOP CATEGORY</div>
                     <ul>
-                        <li><a class="prefooter_li" href="">Men</a></li>
-                        <li><a class="prefooter_li" href="">Women</a></li>
-                        <li><a class="prefooter_li" href="">Child</a></li>
-                        <li><a class="prefooter_li" href="">Apparel</a></li>
-                        <li><a class="prefooter_li" href="">Brows All</a></li>
+                        <li><a class="prefooter_li" href="#">Men</a></li>
+                        <li><a class="prefooter_li" href="#">Women</a></li>
+                        <li><a class="prefooter_li" href="#">Child</a></li>
+                        <li><a class="prefooter_li" href="#">Apparel</a></li>
+                        <li><a class="prefooter_li" href="#">Brows All</a></li>
                     </ul>
                 </div>
             </div>
@@ -251,5 +252,4 @@
         </div>
     </div>
 </footer>
-
 </html>

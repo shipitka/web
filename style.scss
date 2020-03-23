@@ -60,6 +60,7 @@ a {
     letter-spacing: 0.03em;
     line-height: 32px;
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header_button {
@@ -163,17 +164,24 @@ a {
     text-transform: uppercase;
 }
 
+.menu__link:hover {
+    border-bottom: 3px solid $color_site;
+}
+
 .promo {
     height: 614px;
     background-color: #e8e8e8;
     background-image: url(img/promo-back.png);
     background-position: center -51px;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
 }
 
 .promo__content {
-    margin-top: 224px;
-    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-left: 12px solid $color_site;
     padding-left: 12px;
 }
@@ -193,6 +201,20 @@ a {
     color: #222222;
     letter-spacing: 0.03em;
     line-height: 33px;
+    padding-left: 10px;
+}
+
+.promo_h2 {
+    display: flex;
+}
+
+.h2_fashion {
+    color: $color_site;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    line-height: 33px;
+    padding-left: 10px;
 }
 
 .banner {
@@ -437,6 +459,7 @@ a {
 
 .women_promo {
     padding-top: 48px;
+    padding-right: 20px;
 }
 
 .women_text {
@@ -624,7 +647,10 @@ li {
     line-height: 42px;
     text-decoration: none;
     color: rgba(137, 137, 137, 1);
+}
 
+.prefooter_li:hover {
+    color: $color_site;
 }
 
 .footer_bottom {
